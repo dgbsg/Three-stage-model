@@ -13,7 +13,7 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III in article.
 
 ## Examples
-__1.__ The full time domain exact protein distribution of Model II in the article can be obtained by using 
+__1. The full time domain exact protein distribution of Model II in the article can be obtained by using__ 
 ```
 G = G0 + G1 /. param;
 Bins = 80;
@@ -24,7 +24,7 @@ pG = ListPlot[v, PlotRange -> All]
 ```
 `G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, check [exact_solution_Model_II.nb]() for more details.
 
-__2.__ The population SSA results of Model IV in the article can be invoked with `population_SSA`
+__2. The population SSA results of Model IV in the article can be invoked with `population_SSA`__
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
 ```
@@ -34,7 +34,7 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
 Check [population_SSA_IV.ipynb]() for more details.  
-__3.__ The exact statistics of Model III in stationary state in the article can be easily botained by [stationary_statistics_Model_III.nb]()
+__3. The exact statistics of Model III in stationary state in the article can be easily botained by [stationary_statistics_Model_III.nb]()__
 
 
 ## Reference
