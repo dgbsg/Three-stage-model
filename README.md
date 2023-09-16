@@ -13,7 +13,7 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III in article.
 
 ## Examples
-The full time domain exact solution of Model II in the article can be obtained by using the code 
+- The full time domain exact solution of Model II in the article can be obtained by using the code 
 ```
 G = G0 + G1 /. param;
 Bins = 80;
@@ -25,7 +25,7 @@ pG = ListPlot[v, PlotRange -> All]
 
 `G` is the Generating function.
 
-The population SSA results of Model IV in the article can be invoked with `population_SSA`
+- The population SSA results of Model IV in the article can be invoked with `population_SSA`
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
 ```
@@ -35,7 +35,7 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
 
-The exact solution of Model III in the article can be easily botained by adjust the `param` object in [stationary_statistics_Model_III.nb]()
+- The exact solution of Model III in the article can be easily botained by adjust the `param` object in [stationary_statistics_Model_III.nb]()
 
 
 ## Reference
