@@ -7,4 +7,14 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "population_SSA_IV.ipynb" is the population SSA for Model IV in article.
 - "stationary_statistics_Model_III.nb" is the exaction solution for Model III in article.
 ## 2. Reference
-
+If you found this library useful in your research, please consider citing.
+```
+@article{wang2023exact,
+  title={Exact solution of a three-stage model of stochastic gene expression model including cell-cycle dynamics},
+  author={Wang, Yiling and Yu, Zhenhua and Cao, Zhixing and Grima, Ramon},
+  journal={bioRxiv},
+  pages={2023--08},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
