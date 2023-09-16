@@ -13,7 +13,7 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III in article.
 
 ## Examples
-__1.__ The full time domain exact solution of Model II in the article can be obtained by using 
+__1.__ The full time domain exact protein distribution of Model II in the article can be obtained by using 
 ```
 G = G0 + G1 /. param;
 Bins = 80;
