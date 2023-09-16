@@ -29,7 +29,7 @@ __2. The population SSA results of Model IV in the article can be invoked with `
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
 ```
 `G0`,`G1`,`m0`,`p0`,`t0`,`phase0`,`age0` are the initial conditions.  
-`Tamx` is the simulation ending time.  
+`Tmax` is the simulation ending time.  
 `Ncycle` and `Tcycle` is used to calculate the parameter for the exponential distribution Exp(k) by using `k`=`Ncycle`/`Tcycle`.  
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
