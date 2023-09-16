@@ -35,7 +35,7 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
 
-The exact solution of Model III in the article can be easily botained by adjust the `param` object in [stationary_statistics_Model_III.nb]
+The exact solution of Model III in the article can be easily botained by adjust the `param` object in [stationary_statistics_Model_III.nb]()
 
 
 ## Reference
