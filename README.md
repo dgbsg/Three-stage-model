@@ -13,7 +13,8 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III.
 
 ## Examples
-__1. Exact solution of Model II__ 
+__1. Exact solution of Model II.__  
+
 The full time domain exact protein distribution of Model II in the article can be obtained by using
 ```
 G = G0 + G1 /. param;
@@ -25,7 +26,8 @@ pG = ListPlot[v, PlotRange -> All]
 ```
 `G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, check [exact_solution_Model_II.nb]() for more details.
 
-__2. The population SSA of Model IV__
+__2. The population SSA of Model IV.__  
+
 The population SSA results of Model IV in the article can be invoked with `population_SSA`
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
@@ -37,7 +39,8 @@ Calculate the parameter `k` for the exponential distribution by using `k`=`Ncycl
 `data` is a matrix with seven rows, stored values of 
 absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively. Check [population_SSA_IV.ipynb]() for more details.  
 
-__3.The exact statistics of Model III__  
+__3.The exact statistics of Model III.__  
+
 The exact statistics of Model III in stationary state can be botained by [stationary_statistics_Model_III.nb]()
 
 
