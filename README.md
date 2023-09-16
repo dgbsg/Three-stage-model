@@ -37,7 +37,8 @@ absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and
 
 __3. The exact statistics of Model III in stationary state can be botained by [stationary_statistics_Model_III.nb]()__  
 ```
-\tau
+\tau这是一个LaTeX公式：\(E=mc^2\)
+
 ```
 这是一个LaTeX公式：\(\rho\)
 
