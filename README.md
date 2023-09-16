@@ -13,6 +13,17 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III in article.
 
 ## Examples
+The full time domain exact solution of Model II in the article can be obtained by using the code 
+```
+G = G0 + G1 /. param;
+Bins = 80;
+<!-- For protein probability distribution,set w1->0;for mRNA probability distribution,set w2->0-->
+Gp = G /. w1 -> 0;
+PP = ResourceFunction["NSeries"][Gp, {w2, -1, Bins}][[3]];
+v = Table[{i - Bins - 1, Re[PP[[i]]]}, {i, Bins + 1, 2*Bins + 1}];
+pG = ListPlot[v, PlotRange -> All]
+```
+
 The population SSA results of Model IV in the article can be invoked with `population_SSA`
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
@@ -21,7 +32,9 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 `Tamx` is the simulation ending time.  
 `Ncycle` and `Tcycle` is used to calculate the parameter for the exponential distribution Exp(k) by using `k`=`Ncycle`/`Tcycle`.  
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
-`data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.
+`data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
+
+
 ## Reference
 If you found this library useful in your research, please consider citing.
 ```
