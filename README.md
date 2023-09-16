@@ -30,7 +30,7 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 ```
 `G0`,`G1`,`m0`,`p0`,`t0`,`phase0`,`age0` are the initial conditions.  
 `Tmax` is the simulation ending time.  
-`Ncycle` and `Tcycle` is used to calculate the parameter for the exponential distribution Exp(k) by using `k`=`Ncycle`/`Tcycle`.  
+`Ncycle` and `Tcycle` is used to calculate the parameter `k` for the exponential distribution by using `k`=`Ncycle`/`Tcycle`.  
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.Check [population_SSA_IV.ipynb]() for more details.  
 
