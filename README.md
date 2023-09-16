@@ -3,7 +3,7 @@ This library provide simulation code for [Exact solution of a three-stage model 
 cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2.full.pdf)
 ## Requirements
 - Mathematica v13.2.1.0
-- Pandas v1.3.2
+- pandas v1.3.2
 - numpy  1.16.5<=v<=1.23.0
 - scipy v1.7.1
 ## File description
