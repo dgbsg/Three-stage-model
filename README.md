@@ -36,6 +36,10 @@ Calculate the parameter `k` for the exponential distribution by using `k`=`Ncycl
 absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively. Check [population_SSA_IV.ipynb]() for more details.  
 
 __3. The exact statistics of Model III in stationary state can be botained by [stationary_statistics_Model_III.nb]()__  
+```
+\tau
+```
+这是一个LaTeX公式：\(\rho\)
 
 
 ## Reference
