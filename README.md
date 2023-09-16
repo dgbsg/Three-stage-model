@@ -22,7 +22,7 @@ PP = ResourceFunction["NSeries"][Gp, {w2, -1, Bins}][[3]];
 v = Table[{i - Bins - 1, Re[PP[[i]]]}, {i, Bins + 1, 2*Bins + 1}];
 pG = ListPlot[v, PlotRange -> All]
 ```
-`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, and the whole code is [exact_solution_Model_II.nb]()
+`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, check [exact_solution_Model_II.nb]() for more details.
 
 __2.__ The population SSA results of Model IV in the article can be invoked with `population_SSA`
 ```
@@ -33,7 +33,7 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 `Ncycle` and `Tcycle` is used to calculate the parameter for the exponential distribution Exp(k) by using `k`=`Ncycle`/`Tcycle`.  
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively.  
-
+Check [population_SSA_IV.ipynb]() for more details.  
 __3.__ The exact solution of Model III in the article can be easily botained by adjust the `param` object in [stationary_statistics_Model_III.nb]()
 
 
