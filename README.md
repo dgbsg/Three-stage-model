@@ -11,6 +11,12 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "exact_solution_Model_II.nb" is the exact solution for Model II in article.
 - "population_SSA_IV.ipynb" is the population SSA for Model IV in article.
 - "stationary_statistics_Model_III.nb" is the exact solution for Model III in article.
+
+## Examples
+```
+data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
+```
+
 ## Reference
 If you found this library useful in your research, please consider citing.
 ```
