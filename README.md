@@ -22,8 +22,7 @@ PP = ResourceFunction["NSeries"][Gp, {w2, -1, Bins}][[3]];
 v = Table[{i - Bins - 1, Re[PP[[i]]]}, {i, Bins + 1, 2*Bins + 1}];
 pG = ListPlot[v, PlotRange -> All]
 ```
-
-`G` is the Generating function.
+`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, and the whole code is [exact_solution_Model_II.nb]()
 
 __2.__ The population SSA results of Model IV in the article can be invoked with `population_SSA`
 ```
