@@ -43,10 +43,6 @@ __3. The exact statistics of Model III.__
 
 The exact statistics of Model III in stationary state can be botained by [stationary_statistics_Model_III.nb]()
 
-## Contributions
-All contributions are welcome. Please see [issues](https://github.com/dgbsg/Three-stage-model/issues) for an idea of what needs doing.  
-
-If you would like to contribute to this project, please fork it and submit a pull request for review.
 
 ## Reference
 If you found this library useful in your research, please consider citing.
