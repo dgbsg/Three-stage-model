@@ -24,7 +24,7 @@ PP = ResourceFunction["NSeries"][Gp, {w2, -1, Bins}][[3]];
 v = Table[{i - Bins - 1, Re[PP[[i]]]}, {i, Bins + 1, 2*Bins + 1}];
 pG = ListPlot[v, PlotRange -> All]
 ```
-`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2, check [exact_solution_Model_II.nb]() for more details.
+`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2. Check [exact_solution_Model_II.nb]() for more details.
 
 __2. The population SSA of Model IV.__  
 
