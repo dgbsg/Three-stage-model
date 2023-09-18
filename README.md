@@ -1,6 +1,7 @@
 # Three-stage-model
 This library provides simulation code for [Exact solution of a three-stage model of stochastic gene expression including
 cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2.full.pdf)
+________________________________________________________________________________________________________
 ## Requirements
 - Mathematica v13.2.1.0
 - pandas v1.3.2
