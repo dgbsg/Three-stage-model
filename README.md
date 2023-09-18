@@ -10,7 +10,7 @@ ________________________________________________________________________________
 ## File description
 - "SSA_model _II _t10.csv" is SSA result for Model II.
 - "exact_solution_Model_II.nb" is exact solution for Model II.
-- "population_SSA_IV.ipynb" is population SSA for Model IV.
+- "population_SSA_IV.ipynb" is population SSA for Model IV[<sup>[1]</sup>](#refer-anchor-1).
 - "stationary_statistics_Model_III.nb" is exact solution for Model III.
 
 ## Examples
@@ -60,14 +60,12 @@ If you found this library useful in your research, please consider citing.
 ## Reference
 ## Markdown 增加文献引用
 
-这边文章是介绍如何在 Markdown 中增加文献引用。[<sup>[1]</sup>](#refer-anchor-1)
+这边文章是介绍如何在 Markdown 中增加文献引用。
 
 ## 参考
 
 <div id="refer-anchor-1"></div>
 
-- [1] [百度学术](http://xueshu.baidu.com/)
+- [1] [Beentjes C H L, Perez-Carrasco R, Grima R. Exact solution of stochastic gene expression models with bursting, cell cycle and replication dynamics[J]. Physical Review E, 2020, 101(3): 032403.](https://doi.org/10.1103/PhysRevE.101.032403)
 
-<div id="refer-anchor-2"></div>
 
-- [2] [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
