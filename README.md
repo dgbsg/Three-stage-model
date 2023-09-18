@@ -15,7 +15,7 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 ## Examples
 __1. Exact solution of Model II.__  
 
-The full time domain exact protein distribution of Model II in the article can be obtained by using
+The full time domain exact protein distribution of Model II can be obtained by using
 ```
 G = G0 + G1 /. param;
 Bins = 80;
