@@ -10,7 +10,7 @@ ________________________________________________________________________________
 ## File description
 - "SSA_model _II _t10.csv" is SSA result for Model II.
 - "exact_solution_Model_II.nb" is exact solution for Model II.
-- "population_SSA_IV.ipynb" is population SSA for Model IV[<sup>[1]</sup>](#refer-anchor-1).
+- "population_SSA_IV.ipynb"[<sup>[1]</sup>](#refer-anchor-1) is population SSA for Model IV.
 - "stationary_statistics_Model_III.nb" is exact solution for Model III.
 
 ## Examples
