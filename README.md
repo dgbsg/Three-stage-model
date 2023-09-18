@@ -24,11 +24,11 @@ PP = ResourceFunction["NSeries"][Gp, {w2, -1, Bins}][[3]];
 v = Table[{i - Bins - 1, Re[PP[[i]]]}, {i, Bins + 1, 2*Bins + 1}];
 pG = ListPlot[v, PlotRange -> All]
 ```
-`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2. Check [exact_solution_Model_II.nb]() for more details.
+`G` is the generating function. If you care about the probability distribution of mRNA, swap the positions of w1 and w2. For more details, please refer to [exact_solution_Model_II.nb]().
 
 __2. The population SSA of Model IV.__  
 
-The population SSA results of Model IV in the article can be invoked with `population_SSA`
+The population SSA results of Model IV can be invoked with `population_SSA`
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
 ```
@@ -37,11 +37,11 @@ data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,l
 Calculate the parameter `k` for the exponential distribution by using `k`=`Ncycle`/`Tcycle`.  
 `son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
 `data` is a matrix with seven rows, stored values of 
-absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively. Check [population_SSA_IV.ipynb]() for more details.  
+absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively. For more details, please refer to [population_SSA_IV.ipynb]().  
 
 __3. The exact statistics of Model III.__  
 
-The exact statistics of Model III in stationary state can be botained by [stationary_statistics_Model_III.nb]()
+The exact statistics of Model III in stationary state can be obtained by [stationary_statistics_Model_III.nb]()
 
 
 ## Reference
