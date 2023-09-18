@@ -66,6 +66,6 @@ If you found this library useful in your research, please consider citing.
 
 <div id="refer-anchor-1"></div>
 
-- [1] [Beentjes C H L, Perez-Carrasco R, Grima R. Exact solution of stochastic gene expression models with bursting, cell cycle and replication dynamics[J]. Physical Review E, 2020, 101(3): 032403.](https://doi.org/10.1103/PhysRevE.101.032403)
+- [1] Beentjes C H L, Perez-Carrasco R, Grima R. Exact solution of stochastic gene expression models with bursting, cell cycle and replication dynamics[J]. Physical Review E, 2020, 101(3): 032403.[https://doi.org/10.1103/PhysRevE.101.032403](https://doi.org/10.1103/PhysRevE.101.032403)
 
 
