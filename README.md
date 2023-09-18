@@ -60,7 +60,7 @@ If you found this library useful in your research, please consider citing.
 ## Reference
 ## Markdown 增加文献引用
 
-这边文章是介绍如何在 Markdown 中增加文献引用。[<sup>[1]</sup>](#refer-anchor-1)
+这边文章是介绍如何在 Markdown 中增加文献引用。<sup>[1]</sup>(#refer-anchor-1)
 
 ## 参考
 
