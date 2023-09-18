@@ -45,7 +45,7 @@ __3. The exact statistics of Model III.__
 The exact statistics of Model III in stationary state can be obtained by [stationary_statistics_Model_III.nb]()
 
 
-## Reference
+## Citation
 If you found this library useful in your research, please consider citing.
 ```
 @article{wang2023exact,
@@ -58,12 +58,6 @@ If you found this library useful in your research, please consider citing.
 }
 ```
 ## Reference
-## Markdown 增加文献引用
-
-这边文章是介绍如何在 Markdown 中增加文献引用。
-
-## 参考
-
 <div id="refer-anchor-1"></div>
 
 - [1] Beentjes C H L, Perez-Carrasco R, Grima R. Exact solution of stochastic gene expression models with bursting, cell cycle and replication dynamics[J]. Physical Review E, 2020, 101(3): 032403.[https://doi.org/10.1103/PhysRevE.101.032403](https://doi.org/10.1103/PhysRevE.101.032403)
