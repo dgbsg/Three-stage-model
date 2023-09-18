@@ -10,7 +10,7 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - "SSA_model _II _t10.csv" is SSA result for Model II.
 - "exact_solution_Model_II.nb" is exact solution for Model II.
 - "population_SSA_IV.ipynb" is population SSA for Model IV.
-- "stationary_statistics_Model_III.nb" the exact solution for Model III.
+- "stationary_statistics_Model_III.nb" is exact solution for Model III.
 
 ## Examples
 __1. Exact solution of Model II.__  
@@ -32,11 +32,11 @@ The population SSA results of Model IV can be invoked with `population_SSA`
 ```
 data=population_SSA(m0,G0,G1,p0,t0,phase0,age0,Tmax,Ncycle,Tcycle,son,soff,rho,lam,dm)
 ```
-`G0`,`G1`,`m0`,`p0`,`t0`,`phase0`,`age0` are the initial conditions.  
-`Tmax` is the simulation ending time.  
+`G0`,`G1`,`m0`,`p0`,`t0`,`phase0`,`age0` are initial conditions.  
+`Tmax` is simulation ending time.  
 Calculate the parameter `k` for the exponential distribution by using `k`=`Ncycle`/`Tcycle`.  
-`son`,`sof`,`rho`,`lam`,`dm` are the kintic parameters.  
-`data` is a matrix with seven rows, stored values of 
+`son`,`sof`,`rho`,`lam`,`dm` are kintic parameters.  
+`data` is a matrix with seven rows, stores values of 
 absolute time、 acitve gene、 inactive gene、 mRNA、 protein、 cell age and cell phase respectively. For more details, please refer to [population_SSA_IV.ipynb]().  
 
 __3. The exact statistics of Model III.__  
