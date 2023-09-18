@@ -7,10 +7,10 @@ cell-cycle dynamics](https://www.biorxiv.org/content/10.1101/2023.08.29.555255v2
 - numpy  1.16.5<=v<=1.23.0
 - scipy v1.7.1
 ## File description
-- "SSA_model _II _t10.csv" is the SSA result for Model II.
-- "exact_solution_Model_II.nb" is the exact solution for Model II.
-- "population_SSA_IV.ipynb" is the population SSA for Model IV.
-- "stationary_statistics_Model_III.nb" is the exact solution for Model III.
+- "SSA_model _II _t10.csv" is SSA result for Model II.
+- "exact_solution_Model_II.nb" is exact solution for Model II.
+- "population_SSA_IV.ipynb" is population SSA for Model IV.
+- "stationary_statistics_Model_III.nb" the exact solution for Model III.
 
 ## Examples
 __1. Exact solution of Model II.__  
